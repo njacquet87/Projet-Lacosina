@@ -1,0 +1,19 @@
+{
+    "name": "app/r301",
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "src/Controllers/",
+            "App\\Models\\": "src/Models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Noé Jacquet",
+            "email": "noe.jacquet87@gmail.com"
+        }
+    ],
+    "require": {
+        "logger/logger": "^0.0.2",
+        "monolog/monolog": "^2.10"
+    }
+}
